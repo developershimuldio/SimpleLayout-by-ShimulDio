@@ -19,7 +19,8 @@ nav{
 }
 .logo{
     width: 40%;
-    margin-left: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
 }
 .logo img{
     width: 130px;
@@ -39,10 +40,10 @@ nav{
 }
 .menu li a {
     text-decoration: none;
-    font-size: 23px;
+    font-size: 22px;
     color: #4F200D;
-    padding:12px 22px;
-    
+    padding:12px 20px;
+    font-family: 'Cinzel', serif;
 }
 .menu li a:hover{
     background-color: #B8621B;
@@ -66,7 +67,7 @@ nav{
 }
 .banner h2 {
     
-    font-size: 30px;
+    font-size: 35px;
     color: #E9A178;
 }
 .banner p{
@@ -124,7 +125,7 @@ nav{
 .service-item p{
     color: white;
     font-size: 20px;
-    margin: 5px 0 10px 0 ;
+    margin: 5px auto 10px auto;
     padding-bottom: 20px;
     width: 85%;
     text-align: center;
@@ -201,7 +202,7 @@ nav{
     font-size: 20px;
     padding: 15px 0;
     color: black;
-    
+    font-family: 'Roboto', sans-serif;
 }
 /* footer area */
 .footer{
@@ -215,4 +216,10 @@ nav{
 }
 .footer-area p{
     padding: 20px 0;
+}
+h3, h2{
+    font-family: 'Cinzel', serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
 }
