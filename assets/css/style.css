@@ -45,6 +45,9 @@ nav{
     padding:12px 20px;
     font-family: 'Cinzel', serif;
 }
+.menu li a:last-child{
+    margin-right: 0;
+}
 .menu li a:hover{
     background-color: #B8621B;
     color: whitesmoke;
